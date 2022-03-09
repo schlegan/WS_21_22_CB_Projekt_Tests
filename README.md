@@ -1,6 +1,6 @@
 Eine schöne Sammlung aller Test für das Endprojekt, die uns einfallen können!
 
-P.S.: Ihr könnte mehrere Sachen in einer Datei testen, indem ihr mehrere Prints macht! Eure .golden kann dann eine Liste von Werten haben! (Wichtig: Die prints in den Tests machen nicht automatisch Newline!)
+P.S.: Ihr könnte mehrere Sachen in einer Datei testen, indem ihr mehrere Prints macht! Eure .golden kann dann eine Linie von Werten haben! (Wichtig: Die prints in den Tests machen nicht automatisch Newline, also könnte ich nicht über mehrere Zeilen!)
 
 # Regeln
 
