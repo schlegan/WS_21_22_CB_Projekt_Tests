@@ -2,6 +2,11 @@ Eine schöne Sammlung aller Test für das Endprojekt, die uns einfallen können!
 
 P.S.: Ihr könnte mehrere Sachen in einer Datei testen, indem ihr mehrere Prints macht! Eure .golden kann dann eine Linie von Werten haben! (Wichtig: Die prints in den Tests machen nicht automatisch Newline, also könnte ich nicht über mehrere Zeilen!)
 
+# Wichtig!
+
+Im Moment gibt es noch ein Problem, dass Pythonverhalten und Assemblyverhalten nicht immer gleich ist. Weswegen einige Tests einfach unmöglich zu bestehen sind, da Passes und das Assemblyprogramm beide mit der gleich .golden-Datei verglichen werden!
+Wundert euch also nicht.
+
 # Regeln
 
 - Achtet die Lineendings in eueren Dateien! Wir wollen nur den Linuxstandard, LN, sonst gibt es Probleme mit den Tests!
