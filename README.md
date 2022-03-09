@@ -4,6 +4,8 @@ P.S.: Ihr könnte mehrere Sachen in einer Datei testen, indem ihr mehrere Prints
 
 # Regeln
 
+- Achtet die Lineendings in eueren Dateien! Wir wollen nur den Linuxstandard, LN, sonst gibt es Probleme mit den Tests!
+
 - Teilt die Tests in Ordnern auf, so dass wir einen schönen Überblick haben. Z.b.: Tests für Aufgabe 2, Tests für Division, Tests für Aufgabe 2 Regression, etc..
 
 - Die Datei "Intentionen für Tests.md" ist dafür da, eine zentrale Sammlung für die Absichten hinter den einzelnen Tests zu sein. (Wollen die in der Dokumentation ja.)
