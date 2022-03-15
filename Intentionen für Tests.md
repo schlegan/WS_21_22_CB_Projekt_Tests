@@ -87,3 +87,19 @@ Tests für die While-Schleife aus Aufgabe 2.
 - Andre Schlegel - Skip: Testet, ob die Schleife gleich übersprungen wird, wenn die Schleifenbedingung nie wahr ist. Hier um zu testen, ob bei die Übersetzung in Assembly Code auch genau das gewünschte Verhalten besitzt.
 
 - Andre Schlegel - func\_with\_10\_arguments: Testet, ob der Limit Functions Pass korrekt verändert wurde. Spezifischer, ob auch alles korrekt funktioniert, wenn eine Funktion mit mehr als 6 Argumenten in der Schleifenbedingung und in dem Schleifenkörper steht.
+
+- Pascal Walter - while_andOr: Testet den AND- und OR-Operator in der Schleifenbedingung.
+
+- Pascal Walter - while_funcs: Testet Funktionsaufrufe in der Schleifenbedingung und dem Schleifenkörper. Testet auch Schleifen in Funktionen.
+
+- Pascal Walter - while_ifexp: Testet `If`-Expression als eine Schleifenbedingung.
+
+- Pascal Walter - while_input: Testet `input_int()` in der Schleifenbedingung.
+
+- Pascal Walter - while_nested: Testet While-Schleifen in While-Schleifen.
+
+- Pascal Walter - while_noIter: Testet, ob die While-Schleife sofort übersprungen wird, wenn die Schleifenbedingung nie wahr war.
+
+- Pascal Walter - while_task1: Testet die neuen Operanden aus Aufgabe 1 in der Schleifenbedingung und dem Schleifenkörper. 
+
+- Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung.
