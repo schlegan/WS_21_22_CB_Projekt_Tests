@@ -32,7 +32,7 @@ Tests für den Multiplikations-Operator aus Aufgabe 1.
 
 - Pascal Walter - mul_ifexp: Testet, ob Multiplikation in einer `if`-Expression und deren Branches funktioniert.
 
-- Pascal Walter - mul_operands: Testet, ob Variablezuweisung mit Multiplikation funktioniert, und ob jegliche Kombination von Zahl, und Variable in **Division** funktioniert.
+- Pascal Walter - mul_operands: Testet, ob Variablezuweisung mit Multiplikation funktioniert, und ob jegliche Kombination von Zahl, und Variable in Multiplikation funktioniert.
 
 - Pascal Walter - mul_sign: Testet, ob Multiplikation auch mit negativen Zahlen korrekt funktioniert.
 
@@ -45,10 +45,30 @@ Tests für den Multiplikations-Operator aus Aufgabe 1.
 Tests für den Modulo-Operator aus Aufgabe 1.
 
 - Andre Schlegel - ImmImm: Testcases für eine einfach Modulorechnung, z.b. 5 % 6, wo beide Argumente eine Zahl sind. Enthält Paare für Positiv-Positiv, Negativ-Positiv, Negativ-Negativ und 0-Zahl, sowie umgekehrt. Auch mit maximal große Zahlen getestet.
+
 - Andre Schlegel - VarImm: Testcases für eine einfach Modulorechnung, z.b. 5 % 6, wo ein Argumente eine Zahl und das andere Argument eine Variable sind. Enthält Paare für Positiv-Positiv, Negativ-Positiv, Negativ-Negativ und 0-Zahl, sowie umgekehrt. Auch mit maximal große Zahlen getestet.
+
 - Andre Schlegel - VarVar: Testcases für eine einfach Modulorechnung, z.b. 5 % 6, wo beide Argumente Variablen sind. Enthält Paare für Positiv-Positiv, Negativ-Positiv, Negativ-Negativ und 0-Zahl, sowie umgekehrt. Auch mit maximal große  Zahlen getestet.
+
 - Ande Schlegel - Input_intImm: Testcases für eine einfach Modulorechnung, z.b. 5 % 6, wo ein Argumente eine Zahl und das andere Argument eine input_int(). Enthält Paare für Positiv-Positiv, Negativ-Positiv, Negativ-Negativ und 0-Zahl, sowie umgekehrt. Auch mit maximal große Zahlen getestet.
+
 - Andre Schlegel - Input_intInput_int: Testcases für eine einfach Modulorechnung, z.b. 5 % 6, wo beide Argument ein input_int() sind. Enthält Paare für Positiv-Positiv, Negativ-Positiv, Negativ-Negativ und 0-Zahl, sowie umgekehrt. Auch mit maximal große Zahlen getestet.
+
+- Pascal Walter - mod_compare: Testet, ob Modulo korrekt funktioniert in Vergleichen.
+
+- Pascal Walter - mod_funRet: Testet, ob Modulo korrekt funktioniert in Funktionen, als Argument in Funktionsaufrufen und als Funktionsrückgabe.
+
+- Pascal Walter - mod_IF: Testet, ob Modulo in einem `if`-Statement und seinem Körper funktioniert.
+
+- Pascal Walter - mod_ifexp: Testet, ob Modulo in einer `if`-Expression und deren Branches funktioniert.
+
+- Pascal Walter - mod_operands: Testet, ob Variablezuweisung mit Modulo funktioniert, und ob jegliche Kombination von Zahl, und Variable in Modulo funktioniert.
+
+- Pascal Walter - mod_sign: Testet, ob Modulo auch mit negativen Zahlen korrekt funktioniert.
+
+- Pascal Walter - mod_stack: Testet, ob Modulo auch mit Argumenten auf dem Stack funktioniert.
+
+- Pascal Walter - mod_tup: Testet, ob Modulo innerhalb einer Tupelerstellung funktioniert und ob Tupelelemente als Argumente für eine Modulo benutzt werden können.
 
 # Mixing
 
