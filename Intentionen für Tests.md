@@ -103,3 +103,25 @@ Tests für die While-Schleife aus Aufgabe 2.
 - Pascal Walter - while_task1: Testet die neuen Operanden aus Aufgabe 1 in der Schleifenbedingung und dem Schleifenkörper. 
 
 - Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung.
+
+# Array
+
+Test für Aufgabe 3.
+
+- Pascal Walter - array\_bin: Der Test besteht aus einem Programm, welches eine Zahl  in seine Binärdarstellung konvertiert. Ist als Stresstest von allen Features dieses Projekts in einer normalen Programmnutzung gedacht.
+
+- Pascal Walter - array_crazy\_nesting: Testet Zugriff auf ein Arrayelement in einem sehr verschachtelten Array.
+
+- Pascal Walter - array_fun: Testet Array als Funktionsargument und als Rückgabewert einer Funktion. Testet auch, ob Arrays in Funktionen funktioneren.
+
+- Pascal Walter - array_if: Testet die Verwendung von Arrays `If`-Statements und `If`-Expressions.
+
+- Pascal Walter - array_init: Testet viele verschiedene Expressions innerhalb von Arrayerstellung.
+
+- Pascal Walter - array_lgth: Testet die `array_len`-Funktion in mehreren verschiedenen Nutzungen.
+
+- Pascal Walter - array_matmul: Führt Matrixmultiplikation aus, um Arrayacess mit nicht konstanten Werten zu testen und auch um mehrere Features stress zu testen in einer normalen Anwendung.
+
+- Pascal Walter - array_tup: Testet das Verschalten von Array mit Tupeln, sowie umgekehrt, und den Zugriff auf Elementen in diesen. Testet auch, ob ein Array in einer Tuple veränderbar ist.
+
+- Pascal Walter - array_while: Testet Arrays in Kombination mit While-Schleifen. In der Bedingung, im Körper, Zugriff mit konstanten Index, Zugriff mit nicht konstanten Index, etc..
