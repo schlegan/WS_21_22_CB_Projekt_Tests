@@ -72,6 +72,12 @@ Tests für den Modulo-Operator aus Aufgabe 1.
 
 # Mixing
 
+Tests die alle drei neuen Operanden aus Aufgabe 1 zusammen stress testen.
+
+- Pascal Walter - mixing1: Stress testet einen Haufen von Funktionen und mixt die 3 neuen Operanden aus Aufgabe 1 zusammen.
+
+- Pascal Walter - mixing2: Ein Stresstest für Multiplikation und Division.
+
 # While
 
 Tests für die While-Schleife aus Aufgabe 2.
