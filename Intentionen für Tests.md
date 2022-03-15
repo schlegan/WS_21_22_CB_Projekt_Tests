@@ -1,5 +1,7 @@
 # Div
 
+Tests für den Divisions-Operator aus Aufgabe 1.
+
 - Pascal Walter - div\_compare: Testet, ob Division korrekt funktioniert in Vergleichen.
 
 - Pascal Walter - div\_funRet: Testet, ob Division korrekt funktioniert in Funktionen, als Argument in Funktionsaufrufen und als Funktionsrückgabe.
@@ -14,11 +16,29 @@
 
 - Pascal Walter - div\_sign: Testet, ob Division auch mit negativen Zahlen korrekt funktioniert.
 
-- Pascal Walter - div\_Stack: Testet, ob Division auch mit Argumenten auf dem Stack funktioniert.
+- Pascal Walter - div\_stack: Testet, ob Division auch mit Argumenten auf dem Stack funktioniert.
 
 - Pascal Walter - div\_tup: Testet, ob Division innerhalb einer Tupelerstellung funktioniert und ob Tupelelemente als Argumente für eine Division benutzt werden können.
 
 # Mul
+
+Tests für den Multiplikations-Operator aus Aufgabe 1.
+
+- Pascal Walter - mul_compare: Testet, ob Multiplikation korrekt funktioniert in Vergleichen.
+
+- Pascal Walter - mul_funRet: Testet, ob Multiplikation korrekt funktioniert in Funktionen, als Argument in Funktionsaufrufen und als Funktionsrückgabe.
+
+- Pascal Walter - mul_IF: Testet, ob Multiplikation in einem `if`-Statement und seinem Körper funktioniert.
+
+- Pascal Walter - mul_ifexp: Testet, ob Multiplikation in einer `if`-Expression und deren Branches funktioniert.
+
+- Pascal Walter - mul_operands: Testet, ob Variablezuweisung mit Multiplikation funktioniert, und ob jegliche Kombination von Zahl, und Variable in **Division** funktioniert.
+
+- Pascal Walter - mul_sign: Testet, ob Multiplikation auch mit negativen Zahlen korrekt funktioniert.
+
+- Pascal Walter - mul_stack: Testet, ob Multiplikation auch mit Argumenten auf dem Stack funktioniert.
+
+- Pascal Walter - mul_tup: Testet, ob Multiplikation innerhalb einer Tupelerstellung funktioniert und ob Tupelelemente als Argumente für eine Multiplikation benutzt werden können.
 
 # Mod
 
