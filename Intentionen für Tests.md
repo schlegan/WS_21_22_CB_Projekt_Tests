@@ -104,6 +104,8 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung.
 
+- Pascal Walter - while_body: Stresstest für den While-Schleifenkörper.
+
 # Array
 
 Test für Aufgabe 3.
