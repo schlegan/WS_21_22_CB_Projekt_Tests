@@ -92,9 +92,9 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Pascal Walter - while_funcs: Testet Funktionsaufrufe in der Schleifenbedingung und dem Schleifenkörper. Testet auch Schleifen in Funktionen.
 
-- Pascal Walter - while_ifexp: Testet `If`-Expression als eine Schleifenbedingung.
+- Pascal Walter - while_ifexp: Testet `If`-Expression als eine Schleifenbedingung und dem Schleifenkörper.
 
-- Pascal Walter - while_input: Testet `input_int()` in der Schleifenbedingung.
+- Pascal Walter - while_input: Testet `input_int()` in der Schleifenbedingung und dem Schleifenkörper.
 
 - Pascal Walter - while_nested: Testet While-Schleifen in While-Schleifen.
 
@@ -102,7 +102,7 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Pascal Walter - while_task1: Testet die neuen Operanden aus Aufgabe 1 in der Schleifenbedingung und dem Schleifenkörper. 
 
-- Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung.
+- Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung, sowie Schleifenkörper.
 
 - Pascal Walter - while_body: Stresstest für den While-Schleifenkörper.
 
