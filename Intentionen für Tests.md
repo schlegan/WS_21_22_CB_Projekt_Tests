@@ -20,6 +20,10 @@ Tests für den Divisions-Operator aus Aufgabe 1.
 
 - Pascal Walter - div\_tup: Testet, ob Division innerhalb einer Tupelerstellung funktioniert und ob Tupelelemente als Argumente für eine Division benutzt werden können.
 
+- Andre Schlegel - BinOp: Testet Division in Verwendung mit den binären Operanden Addition und Subtraktion.
+
+- Andre Schlegel - If\_in\_div: Testet, ob If-Expressions in Division funktioniert.
+
 # Mul
 
 Tests für den Multiplikations-Operator aus Aufgabe 1.
@@ -39,6 +43,10 @@ Tests für den Multiplikations-Operator aus Aufgabe 1.
 - Pascal Walter - mul_stack: Testet, ob Multiplikation auch mit Argumenten auf dem Stack funktioniert.
 
 - Pascal Walter - mul_tup: Testet, ob Multiplikation innerhalb einer Tupelerstellung funktioniert und ob Tupelelemente als Argumente für eine Multiplikation benutzt werden können.
+
+- Andre Schlegel - BinOp: Testet Multiplikation in Verwendung mit den binären Operanden Addition und Subtraktion.
+
+- Andre Schlegel - If_in_mul: Testet, ob If-Expressions in Multiplikation funktioniert.
 
 # Mod
 
@@ -70,6 +78,10 @@ Tests für den Modulo-Operator aus Aufgabe 1.
 
 - Pascal Walter - mod_tup: Testet, ob Modulo innerhalb einer Tupelerstellung funktioniert und ob Tupelelemente als Argumente für eine Modulo benutzt werden können.
 
+- Andre Schlegel - BinOp: Testet Modulo in Verwendung mit den binären Operanden Addition und Subtraktion.
+
+- Andre Schlegel - If_in_div: Testet, ob If-Expressions in Modulo funktioniert.
+
 # Mixing
 
 Tests die alle drei neuen Operanden aus Aufgabe 1 zusammen stress testen.
@@ -92,7 +104,7 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Pascal Walter - while_funcs: Testet Funktionsaufrufe in der Schleifenbedingung und dem Schleifenkörper. Testet auch Schleifen in Funktionen.
 
-- Pascal Walter - while_ifexp: Testet `If`-Expression als eine Schleifenbedingung und dem Schleifenkörper.
+- Pascal Walter - while_ifexp: Testet `If`-Expression als eine Schleifenbedingung und in dem Schleifenkörper.
 
 - Pascal Walter - while_input: Testet `input_int()` in der Schleifenbedingung und dem Schleifenkörper.
 
@@ -105,6 +117,8 @@ Tests für die While-Schleife aus Aufgabe 2.
 - Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung, sowie Schleifenkörper.
 
 - Pascal Walter - while_body: Stresstest für den While-Schleifenkörper.
+
+- Andre Schlegel - Add\_Sub: Test, ob die binären Operanden Addition und Subtraktion korrekt in der Schleifenbedingung funktionieren.
 
 # Array
 
