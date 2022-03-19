@@ -25,10 +25,10 @@ print(e % c) # 0
 print(e % d) # 0
 # Jetzt nochmal alles für die größten Zahlen.
 a = 9223372036854775807
-b = -9223372036854775808
+b = -9223372036854775807
 print(a % a) # 0
-print(a % b) # 9223372036854775807
-print(b % a) # -1
+print(a % b) # 0
+print(b % a) # 0
 print(b % b) # 0
 print(e % a) # 0
 print(e % b) # 0
