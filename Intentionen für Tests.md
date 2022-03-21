@@ -120,6 +120,8 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Andre Schlegel - Add\_Sub: Test, ob die binären Operanden Addition und Subtraktion korrekt in der Schleifenbedingung funktionieren.
 
+- Pascal Walter - while_IF: Tests While-Schleifen im Körper eines If-Statments und umgekehrt.
+
 # Array
 
 Test für Aufgabe 3.
