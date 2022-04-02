@@ -24,6 +24,10 @@ Tests für den Divisions-Operator aus Aufgabe 1.
 
 - Andre Schlegel - If\_in\_div: Testet, ob If-Expressions in Division funktioniert.
 
+- Jürgen Mattheis - `power_efficient.py`: Ein wahnsinnig cooler **rekursiver** Algorithmus, den ich damals als ich **Einführung in die Programmierung** bei **Thiemann** gehört hab, gelernt hab. Dieser Algorithmus ist eine deutlich **schnellere** Variante des `power.py` Algorithmus. Dieser Test eignet sich gut, um zu testen, ob es bei **rekursiven** Funktion und Division zu Problemen kommen kann und nebenbei wird auch noch **Modulo** getestet. Also ein richtiger Allrounder, der das Zusammenspiel all dieser **Operationen** testet
+
+- Jürgen Mattheis - `log2.py`: Bald können wir unser eigenes `math` Module für unseren **Compiler** rausbringen :D Testet bei Division den Fall, dass man es effizienter machen kann, da einer der **Operanden** die **Variable** ist, der etwas **zugewiesenw** wird. Darüberhinaus wird hier auch `While` getestet
+
 # Mul
 
 Tests für den Multiplikations-Operator aus Aufgabe 1.
@@ -47,6 +51,8 @@ Tests für den Multiplikations-Operator aus Aufgabe 1.
 - Andre Schlegel - BinOp: Testet Multiplikation in Verwendung mit den binären Operanden Addition und Subtraktion.
 
 - Andre Schlegel - If_in_mul: Testet, ob If-Expressions in Multiplikation funktioniert.
+
+- Jürgen Mattheis - `power.py`: Typisches Anwendungsbeispiel für Multiplikation. Ist ein Test, um zu schauen, ob Multiplikation auch bei rekursiven Funktionen funktioniert
 
 # Mod
 
@@ -112,7 +118,7 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Pascal Walter - while_noIter: Testet, ob die While-Schleife sofort übersprungen wird, wenn die Schleifenbedingung nie wahr war.
 
-- Pascal Walter - while_task1: Testet die neuen Operanden aus Aufgabe 1 in der Schleifenbedingung und dem Schleifenkörper. 
+- Pascal Walter - while_task1: Testet die neuen Operanden aus Aufgabe 1 in der Schleifenbedingung und dem Schleifenkörper.
 
 - Pascal Walter - while\_tup: Testet Tupeln und deren Zugang in der Schleifenbedingung, sowie Schleifenkörper.
 
@@ -122,9 +128,17 @@ Tests für die While-Schleife aus Aufgabe 2.
 
 - Pascal Walter - while_IF: Tests While-Schleifen im Körper eines If-Statments und umgekehrt.
 
+- Jürgen Mattheis - `gcd.py`: Eine typische Anwendung der **`While`-Schleife** für einen ziemlich bekannten, vielverwendeten **Algoritmus**, um den **größten gemeinsamen Teiler** zu finden (**greatest common divisor**). Testet auch gleichzeit **Modulo** in einem komplexeren Szenario.
+
+- Jürgen Mattheis - `power_iterative`: Das ist der gleiche Algorithmus wie der **rekursive Algorithmus** in `power.py`, nur **iterativ** umgesetzt. Ist ein Test der `While` auch mal mit $\ne$ **Comperator**  testet. Testet den Fall bei **Multiplikation**, dass ein **Operand** sich nach Auführung der **Operation** selbst zugewiesen wird. Testet **Multiplikation** und `While` in einem komplexen Szenario.
+
+- Jürgen Mattheis - `power_efficient_iterative`: Das ist der gleiche **Algorithmus** wie der **rekursive Algorithmus** in `power_efficient.py`, nur **iterativ** umgesetzt. Testet **Multiplikation** und `While` in einem **komplexen** Szenario, aber einem anderen Szenario als im Test `power_iterative.py`.
+
 # Array
 
 Test für Aufgabe 3.
+
+- `array_crazy_nesting.py`: Zugriff auf einen bestimmten **mehrdimensionalen Index** eines Arrays, dass sehr stark **geschachtelt** ist - Ersteller: Pascal Walter
 
 - Pascal Walter - array\_bin: Der Test besteht aus einem Programm, welches eine Zahl  in seine Binärdarstellung konvertiert. Ist als Stresstest von allen Features dieses Projekts in einer normalen Programmnutzung gedacht.
 
@@ -143,3 +157,8 @@ Test für Aufgabe 3.
 - Pascal Walter - array_tup: Testet das Verschalten von Array mit Tupeln, sowie umgekehrt, und den Zugriff auf Elementen in diesen. Testet auch, ob ein Array in einer Tuple veränderbar ist.
 
 - Pascal Walter - array_while: Testet Arrays in Kombination mit While-Schleifen. In der Bedingung, im Körper, Zugriff mit konstanten Index, Zugriff mit nicht konstanten Index, etc..
+
+- Jürgen Mattheis - `minsort.py`: Einer der ersten Algorithmen aus der **Algorithmen und Datenstrukturen** Vorlesung. Testen tut dieser Test z.B. `array_store` und `array_load`in einem komplexen Environment.
+
+- Jürgen Mattheis - `fib_efficient.py`: Eine Programm, dass zeigt, wie unglaublich **viel effizienter** man durch Verwendung von Arrays einen Algorithmus machen kann, indem man **Dynamische Programmierung** verwendet, um sich in den Arrays bereits ausgerechnete Primzahlen **abzuspeichern**, anstatt sie immer wieder unnötig neu zu berechnen, weil man ja immer nur die letzte berechnte Primzahl braucht. Ist ein guter Test, um zu schauen, wie sich Arrays bei **rekursiven Funktionen** verhalten. Ist auch gleichzeitig ein toller Test für **Modulo**.
+
